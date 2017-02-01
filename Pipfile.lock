@@ -1,13 +1,5 @@
 {
     "default": {
-        "scikit_image": {
-            "version": "==0.12.3",
-            "hash": "sha256:6855deffd9d0a72d3ee8fcb9d14490d0c7c1e45e3a79bdba082b6a62934820ff"
-        },
-        "functools32-3.2.3": {
-            "version": "==2",
-            "hash": "sha256:89d824aa6c358c421a234d7f9ee0bd75933a67c29588ce50aaa3acdf4d403fa0"
-        },
         "pytz": {
             "version": "==2016.10",
             "hash": "sha256:a1ea35e87a63c7825846d5b5c81d23d668e8a102d3b1b465ce95afe1b3a2e065"
@@ -16,17 +8,21 @@
             "version": "==1.10.0",
             "hash": "sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1"
         },
-        "python_dateutil": {
-            "version": "==2.6.0",
-            "hash": "sha256:537bf2a8f8ce6f6862ad705cd68f9e405c0b5db014aa40fa29eab4335d4b1716"
+        "scikit-image": {
+            "version": "==0.12.3",
+            "hash": "sha256:6855deffd9d0a72d3ee8fcb9d14490d0c7c1e45e3a79bdba082b6a62934820ff"
         },
         "matplotlib": {
             "version": "==2.0.0",
             "hash": "sha256:b2f457bdf65f2779c9e863649fb4f7e081e0b0ccb26c6d4f04243eb1d25a8976"
         },
-        "pyparsing": {
-            "version": "==2.1.10",
-            "hash": "sha256:67101d7acee692962f33dd30b5dce079ff532dd9aa99ff48d52a3dad51d2fe84"
+        "pillow": {
+            "version": "==4.0.0",
+            "hash": "sha256:de009e7077c56e3f5d1369e0bd66377e2b53d6705790193c595fc7befd95a491"
+        },
+        "scipy": {
+            "version": "==0.18.1",
+            "hash": "sha256:f97b4de9be61c6f458ab2b804e74bfffc15d8f77964772006971cd6bc6e25f0d"
         },
         "dask": {
             "version": "==0.13.0",
@@ -40,13 +36,21 @@
             "version": "==1.11",
             "hash": "sha256:1b229b54fe9ccb009cee4de02a88552191497a542a7d5d34adab216b9f15c1ff"
         },
+        "functools32": {
+            "version": "==3.2.3-2",
+            "hash": "sha256:89d824aa6c358c421a234d7f9ee0bd75933a67c29588ce50aaa3acdf4d403fa0"
+        },
+        "python-dateutil": {
+            "version": "==2.6.0",
+            "hash": "sha256:537bf2a8f8ce6f6862ad705cd68f9e405c0b5db014aa40fa29eab4335d4b1716"
+        },
         "subprocess32": {
             "version": "==3.2.7",
             "hash": "sha256:1e450a4a4c53bf197ad6402c564b9f7a53539385918ef8f12bdf430a61036590"
         },
-        "cycler": {
-            "version": "==0.10.0",
-            "hash": "sha256:1d8a5ae1ff6c5cf9b93e8811e581232ad8920aeec647c37316ceac982b08cb2d"
+        "pyparsing": {
+            "version": "==2.1.10",
+            "hash": "sha256:67101d7acee692962f33dd30b5dce079ff532dd9aa99ff48d52a3dad51d2fe84"
         },
         "olefile": {
             "version": "==0.44",
@@ -56,9 +60,9 @@
             "version": "==1.12.0",
             "hash": "sha256:bf5df5c600b3d798382bb7d050d2ac4345d9f5c1277283a695e36928945f3cfd"
         },
-        "Pillow": {
-            "version": "==4.0.0",
-            "hash": "sha256:de009e7077c56e3f5d1369e0bd66377e2b53d6705790193c595fc7befd95a491"
+        "cycler": {
+            "version": "==0.10.0",
+            "hash": "sha256:1d8a5ae1ff6c5cf9b93e8811e581232ad8920aeec647c37316ceac982b08cb2d"
         },
         "decorator": {
             "version": "==4.0.11",
@@ -74,6 +78,8 @@
             }
         ],
         "requires": {},
-        "Pipfile-sha256": "d505802d51ff0d75b4c9ea1b5855b313ef32f69a01504190fb18e5bb2212619d"
+        "hash": {
+            "sha256": "57f10eacfe079aadfb700805a4094cf1597a7d8cdf524139fc3394075b29e311"
+        }
     }
 }

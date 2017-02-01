@@ -4,5 +4,5 @@ verify_ssl = true
 
 [packages]
 scipy = "*"
-scikit_image = "*"
 matplotlib = "*"
+scikit-image = "*"
