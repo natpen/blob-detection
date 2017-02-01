@@ -9,4 +9,4 @@
 * `git clone git@github.com:natpen/blob-detection.git`
 * `cd blob-detection`
 * `pipenv install`
-* `python run python main.py`
+* `pipenv run python main.py`
